@@ -1,0 +1,111 @@
+@import "./node_modules/remixicon/fonts/remixicon.css";
+@import "./node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+.nav-brand-icon {
+    height: 1.5rem;
+}
+
+$primary: hsl(19,
+64%,
+52%);
+$light: hsl(19,
+8%,
+55%);
+$body-bg: hsl(19,
+100%,
+96%);
+$body-color: hsl(19,
+16%,
+35%);
+$font-size-base: 0.9rem;
+$btn-padding-x: 1.5rem;
+$btn-padding-y: 0.5rem;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+$font-family-sans-serif: "Poppins";
+$navbar-nav-link-padding-x: 1.6rem;
+@import "./node_modules/bootstrap/scss/bootstrap";
+.ri-arrow-right-line {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.home-sushi-heading {
+    height: 50px;
+}
+
+.arrow-down-home,
+.arrow-down-home:hover {
+    cursor: pointer;
+    color: $primary;
+    transition: all 0.8s;
+}
+
+.title {
+    font-family: "Lora";
+    font-weight: bold;
+    color: hsl(19, 16%, 15%);
+}
+
+.sub-title {
+    font-family: "Dancing Script";
+    color: $primary;
+}
+
+.sushi-card:hover .card-image {
+    transform: translateY(-60px);
+}
+
+.sushi-card {
+    background-color: hsl(19, 100%, 96%);
+    .card-image {
+        transform: translateY(-40px);
+        transition: 0.5s;
+    }
+}
+
+.adddcard-btn {
+    width: 40px;
+    height: 40px;
+    background-color: $primary;
+    border: none;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    color: white;
+}
+
+.leaf-img {
+    width: 40px;
+}
+
+.input-newsletter {
+    height: 60px;
+    vertical-align: middle;
+    // overflow: hidden;
+    input {
+        background-color: white;
+        outline: none !important;
+    }
+    .row {}
+}
+
+#home::before {
+    content: url('./public/img/leaf-branch-2.png');
+    position: absolute;
+    transform: rotate(92deg) translateX(-110px) translateY(-40px);
+    width: 70px;
+    opacity: 0.2;
+}
+
+#home::after {
+    content: url('./public/img/leaf-branch-1.png');
+    position: absolute;
+    transform: translateY(257px) translateX(-16px) rotate(292deg);
+    width: 70px;
+    opacity: 0.2;
+    right: 0;
+    bottom: 0;
+}
