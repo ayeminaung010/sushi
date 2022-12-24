@@ -19,6 +19,19 @@ $body-bg: hsl(19,
 $body-color: hsl(19,
 16%,
 35%);
+$spacer: 1rem;
+$spacers: ( 0: 0,
+1: $spacer * .25,
+2: $spacer * .5,
+3: $spacer,
+4: $spacer * 1.5,
+5: $spacer * 3,
+6: $spacer * 4,
+7: $spacer * 5,
+8: $spacer * 6,
+9: $spacer * 7,
+10: $spacer * 8,
+);
 $font-size-base: 0.9rem;
 $btn-padding-x: 1.5rem;
 $btn-padding-y: 0.5rem;
@@ -72,7 +85,7 @@ $navbar-nav-link-padding-x: 1.6rem;
     background-color: $primary;
     border: none;
     position: absolute;
-    right: 20px;
+    right: 10px;
     bottom: 5px;
     color: white;
 }
@@ -84,27 +97,33 @@ $navbar-nav-link-padding-x: 1.6rem;
 .input-newsletter {
     height: 60px;
     vertical-align: middle;
-    // overflow: hidden;
-    input {
-        background-color: white;
-        outline: none !important;
-    }
-    .row {}
+}
+
+.input-subscribe {
+    height: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.subscribe {
+    width: 100px;
+    height: auto;
 }
 
 #home::before {
-    content: url('./public/img/leaf-branch-2.png');
+    content: url('/img/leaf-branch-2.png');
     position: absolute;
-    transform: rotate(92deg) translateX(-110px) translateY(-40px);
+    transform: rotate(82deg) translateX(-171px) translateY(-56px);
     width: 70px;
     opacity: 0.2;
 }
 
 #home::after {
-    content: url('./public/img/leaf-branch-1.png');
+    content: url('/img/leaf-branch-1.png');
     position: absolute;
-    transform: translateY(257px) translateX(-16px) rotate(292deg);
-    width: 70px;
+    transform: translateX(100px) translateY(119px) rotate(272deg);
     opacity: 0.2;
     right: 0;
     bottom: 0;

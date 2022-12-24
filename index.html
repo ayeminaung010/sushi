@@ -11,7 +11,7 @@
 
 <body>
     <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
         <div class="container">
             <a class="navbar-brand  d-flex" href="#">
                 <img src="/img/logo.png" class="nav-brand-icon me-2" alt="">
@@ -44,9 +44,10 @@
         </div>
     </nav>
     <!-- nav bar end -->
-    <!-- home section  -->
+
     <main>
-        <section id="home" class=" my-5">
+        <!-- home section  -->
+        <section id="home" class=" my-5 position-relative overflow-hidden">
             <div class="container my-5">
                 <div class="row align-items-center min-vh-100 mt-5">
                     <div class="col-12 col-md-4">
@@ -75,13 +76,14 @@
                 </div>
             </div>
         </section>
+        <!-- about  -->
         <section id="about" class=" m-5">
             <div class="container my-5">
                 <div class="row justify-content-center ">
-                    <div class="col-md-4">
+                    <div class="col-md-4 ">
                         <img src="/img/about-sushi.png" class=" w-100" alt="">
                     </div>
-                    <div class="col-md-4 offset-1">
+                    <div class="col-md-5 offset-md-1 ">
                         <div class="">
                             <h3 class=" sub-title ">About Us</h3>
                             <div class="d-flex title">
@@ -97,15 +99,16 @@
                 </div>
             </div>
         </section>
+        <!-- popular  -->
         <section id="popular">
-            <div class="container my-5">
+            <div class="container my-7">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center mb-5">
                         <h3 class=" sub-title">The Best Food</h3>
                         <h2 class=" title">Popular Dishes</h2>
                     </div>
                     <div class="col-md-3 ">
-                        <div class="sushi-card py-3 shadow rounded-4  ">
+                        <div class="sushi-card py-3 shadow rounded-4  my-4">
                             <div class=" text-center">
                                 <img src="/img/popular-onigiri.png" class="card-image w-75 mb-2" alt="">
                             </div>
@@ -113,12 +116,12 @@
                                 <p class="h4 title">Onigiri</p>
                                 <p>Japanese Dish</p>
                                 <span class=" text-primary h4 fw-bold">$10.99</span>
-                                <button class=" rounded-pill adddcard-btn fs-5"><i class="ri-shopping-bag-line"></i></button>
+                                <button class=" rounded-pill adddcard-btn fs-5 d-md-none"><i class="ri-shopping-bag-line"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="sushi-card py-3 shadow rounded-4  ">
+                        <div class="sushi-card py-3 shadow rounded-4  my-4">
                             <div class=" text-center">
                                 <img src="/img/popular-onigiri.png" class="card-image w-75 mb-2" alt="">
                             </div>
@@ -126,12 +129,12 @@
                                 <p class="h4 title">Spring Rolls</p>
                                 <p>Japanese Dish</p>
                                 <span class=" text-primary h4 fw-bold">$15.99</span>
-                                <button class=" rounded-pill adddcard-btn fs-5"><i class="ri-shopping-bag-line"></i></button>
+                                <button class=" rounded-pill adddcard-btn fs-5 d-md-none"><i class="ri-shopping-bag-line"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="sushi-card py-3 shadow rounded-4  ">
+                        <div class="sushi-card py-3 shadow rounded-4  my-4">
                             <div class=" text-center">
                                 <img src="/img/popular-onigiri.png" class="card-image w-75 mb-2" alt="">
                             </div>
@@ -139,8 +142,7 @@
                                 <p class="h4 title">Sushi Rolls</p>
                                 <p>Japanese Dish</p>
                                 <span class=" text-primary h4 fw-bold">$19.99</span>
-                                <button class=" rounded-pill adddcard-btn fs-5"><i class="ri-shopping-bag-line"></i></button>
-
+                                <button class=" rounded-pill adddcard-btn fs-5  d-md-none"><i class="ri-shopping-bag-line"></i></button>
                             </div>
                         </div>
                     </div>
@@ -148,10 +150,11 @@
                 </div>
             </div>
         </section>
+        <!-- recently  -->
         <section id="recently">
-            <div class="container  my-5">
+            <div class="container  my-7">
                 <div class="row justify-content-center ">
-                    <div class="col-md-4 my-5">
+                    <div class="col-md-4 col-12 my-5">
                         <h4 class=" sub-title">Recently Added</h4>
                         <div class="d-flex">
                             <h1 class=" title d-block ">Sushi Samurai</h1>
@@ -160,7 +163,6 @@
                             <h1 class=" title ">Salmon Cheese</h1>
                             <img src="/img/spinach-leaf.png" class="leaf-img ms-2" alt="">
                         </div>
-
                         <div class=" w-75 mb-4">
                             Take a look at what's new. And do not deprive yourself of a good meal, enjoy and be happy.
                         </div>
@@ -169,14 +171,15 @@
                             <i class="ri-arrow-right-line"></i>
                         </a>
                     </div>
-                    <div class="col-md-4 offset-1 my-5">
+                    <div class="col-md-4 col-11 offset-1 my-5">
                         <img src="/img/recently-salmon-sushi.png" class=" w-100" alt="">
                     </div>
                 </div>
             </div>
         </section>
+        <!-- newsletter  -->
         <section id="newsletter">
-            <div class="container ">
+            <div class="container">
                 <div class="row justify-content-center ">
                     <div class="col-md-9 bg-dark rounded-5">
                         <div class="row justify-content-center py-5 ">
@@ -185,17 +188,17 @@
                             </div>
                             <div class="col-md-5 col-10 offset-md-1 ">
                                 <h4 class=" sub-title">Recently Added</h4>
-                                <h2 class=" title text-white">Subscribe For</h2>
+                                <h2 class=" title text-white mt-4">Subscribe For</h2>
                                 <h2 class=" title text-white">Offer Updates</h2>
-                                <div class="input-newsletter rounded-pill bg-white p-2">
-                                    <div class="row align-items-center g-0 ">
-                                        <div class="col-md-7 flex-grow-1">
-                                            <input type="text" class="form-control w-100 rounded-pill bg-transparent ps-3" placeholder="Enter Email">
+                                <div class="input-newsletter rounded-pill bg-white p-1  mt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="">
+                                            <input type="text" class="input-subscribe w-100 rounded-pill bg-transparent ps-3" placeholder="Enter Email">
                                         </div>
-                                        <div class="col-md-5 ">
-                                            <button class=" btn btn-primary rounded-5 text-white  w-100">
-                                                Subscribe 
-                                                <i class=" ri-telegram-fill"></i>
+                                        <div class=" subscribe me-lg-5 ms-md-0 ms-5">
+                                            <button class=" btn btn-primary d-flex rounded-5 text-white justify-content-center align-items-center">
+                                                <span class=" d-none d-lg-block ">Subscribe</span>
+                                                <i class=" ri-telegram-fill fs-4 text-center "></i>
                                             </button>
                                         </div>
                                     </div>
@@ -208,8 +211,8 @@
             </div>
         </section>
     </main>
-    <!-- home section end  -->
-    <script type="module " src="/main.js"></script>
+
+    <script type="module" src="/main.js "></script>
 </body>
 
 </html>
