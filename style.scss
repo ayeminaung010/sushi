@@ -21,8 +21,8 @@ $body-color: hsl(19,
 35%);
 $spacer: 1rem;
 $spacers: ( 0: 0,
-1: $spacer * .25,
-2: $spacer * .5,
+1: $spacer * 0.25,
+2: $spacer * 0.5,
 3: $spacer,
 4: $spacer * 1.5,
 5: $spacer * 3,
@@ -113,7 +113,7 @@ $navbar-nav-link-padding-x: 1.6rem;
 }
 
 #home::before {
-    content: url('/img/leaf-branch-2.png');
+    content: url("/img/leaf-branch-2.png");
     position: absolute;
     transform: rotate(82deg) translateX(-171px) translateY(-56px);
     width: 70px;
@@ -121,7 +121,7 @@ $navbar-nav-link-padding-x: 1.6rem;
 }
 
 #home::after {
-    content: url('/img/leaf-branch-1.png');
+    content: url("/img/leaf-branch-1.png");
     position: absolute;
     transform: translateX(100px) translateY(119px) rotate(272deg);
     opacity: 0.2;
